@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'garden-green': '#2F855A', // Verde para tema de jardinagem
+        'earth-brown': '#8B4513',  // Marrom terroso
+        'light-garden': '#d1e0ca',
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // Ensure Inter is the default sans-serif font
       },
     },
   },
