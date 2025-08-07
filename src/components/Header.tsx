@@ -17,7 +17,7 @@ export default function Header() {
         <Link href="/">
           <Image
             src="/images/logo.png"
-            alt="Logo do Negócio de Jardinagem"
+            alt="AB Green Garden Maintenance"
             width={450} // Tela pequena
             height={120} // Altura automática
             className="md:w-[400px] w-[250px] h-auto object-contain" // w-80 = 320px, w-32 = 128px (aproximado para 120px)
@@ -27,17 +27,17 @@ export default function Header() {
           <Link href="/" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
             Home
           </Link>
-          <Link href="/sobre" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
-            Sobre
+          <Link href="/about" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
+            About
           </Link>
-          <Link href="/servicos" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
-            Serviços
+          <Link href="/services" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
+            Services
           </Link>
-          <Link href="/galeria" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
-            Galeria
+          <Link href="/gallery" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
+            Gallery
           </Link>
-          <Link href="/contato" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
-            Contato
+          <Link href="/contact" className="text-xl text-garden-green hover:text-earth-brown transition-colors">
+            Contact
           </Link>
         </nav>
         <button className="md:hidden text-garden-green" onClick={toggleMenu}>
@@ -51,17 +51,17 @@ export default function Header() {
           <Link href="/" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/sobre" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
-            Sobre
+          <Link href="/about" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
+            About
           </Link>
-          <Link href="/servicos" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
-            Serviços
+          <Link href="/services" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
+            Services
           </Link>
-          <Link href="/galeria" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
-            Galeria
+          <Link href="/gallery" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
+            Gallery
           </Link>
-          <Link href="/contato" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
-            Contato
+          <Link href="/contact" className="block text-lg text-garden-green hover:text-earth-brown py-2" onClick={toggleMenu}>
+            Contact
           </Link>
         </nav>
       )}

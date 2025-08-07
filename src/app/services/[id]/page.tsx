@@ -10,10 +10,10 @@ interface ServiceDetailPageProps {
 export async function generateMetadata({ params }: ServiceDetailPageProps): Promise<Metadata> {
   const service = services.find((s) => s.id === params.id);
   if (!service) {
-    return { title: 'Serviço Não Encontrado' };
+    return { title: 'Service Not Found' };
   }
   return {
-    title: `${service.title} - Seu Negócio de Jardinagem`,
+    title: `${service.title} - Ab Green Garden Maintenance`,
     description: service.description,
   };
 }
@@ -36,7 +36,7 @@ export default function ServiceDetailPage({ params }: ServiceDetailPageProps) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Image
             src={`/images/service${service.id}_1.jpg`}
-            alt={`Imagem 1 de ${service.title}`}
+            alt={`Image 1 of ${service.title}`}
             width={600}
             height={400}
             className="rounded-lg object-cover w-full h-auto"
@@ -44,7 +44,7 @@ export default function ServiceDetailPage({ params }: ServiceDetailPageProps) {
           />
           <Image
             src={`/images/service${service.id}_2.jpg`}
-            alt={`Imagem 2 de ${service.title}`}
+            alt={`Image 2 of ${service.title}`}
             width={600}
             height={400}
             className="rounded-lg object-cover w-full h-auto"
