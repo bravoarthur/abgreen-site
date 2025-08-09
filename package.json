@@ -13,8 +13,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.62.0",
-    "react-photo-gallery": "^8.0.0",
-    "swiper": "^11.2.10"
+    "swiper": "^11.2.10",
+    "yet-another-react-lightbox": "^3.25.0"
   },
   "devDependencies": {
     "@types/node": "^20",
