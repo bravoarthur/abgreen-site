@@ -39,7 +39,7 @@ export default function ServiceDetailPage({ params }: ServiceDetailPageProps) {
             alt={`Image 1 of ${service.title}`}
             width={600}
             height={400}
-            className="rounded-lg object-cover w-full h-auto"
+            className="rounded-lg object-cover w-full h-[250px]"
             priority
           />
           <Image
@@ -47,7 +47,7 @@ export default function ServiceDetailPage({ params }: ServiceDetailPageProps) {
             alt={`Image 2 of ${service.title}`}
             width={600}
             height={400}
-            className="rounded-lg object-cover w-full h-auto"
+            className="rounded-lg object-cover w-full h-[250px]"
             priority
           />
         </div>

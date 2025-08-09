@@ -20,7 +20,7 @@ export default function Header() {
             alt="AB Green Garden Maintenance"
             width={450} // Tela pequena
             height={120} // Altura automática
-            className="md:w-[400px] w-[250px] h-auto object-contain" // w-80 = 320px, w-32 = 128px (aproximado para 120px)
+            className="md:w-[350px] w-[250px] h-auto object-contain" // w-80 = 320px, w-32 = 128px (aproximado para 120px)
           />
         </Link>
         <nav className="hidden md:flex space-x-6">

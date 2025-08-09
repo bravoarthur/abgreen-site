@@ -21,6 +21,7 @@ export default function Servicos() {
               id={service.id}
               title={service.title}
               description={service.description}
+              image={service.image}
             />
           ))}
         </div>

@@ -5,3 +5,89 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* Swiper Custom Styles */
+.mySwiper {
+  padding-bottom: 60px; /* Increased space for pagination dots */
+}
+
+
+
+.swiper-pagination {
+  position: relative !important; /* Force positioning below carousel */
+  bottom: auto !important; /* Override Swiper's default absolute positioning */
+  text-align: center;
+  margin-top: 20px; /* Add space above dots */
+}
+
+.swiper-pagination-bullet {
+  background: #A7F3D0;
+  opacity: 0.7;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #2F855A;
+  opacity: 1;
+}
+
+
+
+.feature-card {
+  background-color: #b2f7b51a; /* Lighter green than garden-green (#2F855A) */
+  max-width: 250px; /* Constrain card width */
+  width: 100%; /* Responsive width */
+}
+/*#b2f7b51a*/
+
+
+
+
+
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+.mySwiper {
+  padding-bottom: 60px; 
+}
+
+
+.swiper-pagination {
+  position: relative !important; 
+  bottom: auto !important; 
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.swiper-pagination-bullet {
+  background: #A7F3D0;
+  opacity: 0.7;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #2F855A;
+  opacity: 1;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: #b2f7b51a; 
+  max-width: 250px; 
+  width: 100%; 
+}
+
+*/

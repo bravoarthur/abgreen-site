@@ -11,8 +11,8 @@ const inter = Inter ({
 })
 
 export const metadata: Metadata = {
-  title: 'Your Gardening Business',
-  description: 'Professional gardening services in Australia.',
+  title: 'Home - Your Gardening Business',
+  description: 'Transform your garden with professional gardening services in Australia.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
