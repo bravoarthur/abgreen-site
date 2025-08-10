@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About - Your Gardening Business',
+  title: 'About - AB Green Garden Maintenance',
   description: 'Learn more about our professional gardening services in Australia..',
 };
 

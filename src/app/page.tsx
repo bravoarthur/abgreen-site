@@ -66,8 +66,7 @@ export default function Home() {
             {/* Parallax background (colocado como primeiro filho do Swiper) */}
             <div
               slot="container-start"
-              className="pointer-events-none absolute inset-0 bg-center bg-cover opacity-30"
-              style={{ backgroundImage: 'url("/images/garden-bg.jpg")' }}
+              className="pointer-events-none absolute inset-0 bg-center bg-cover opacity-30"              
               data-swiper-parallax="-110%"
             ></div>
 
